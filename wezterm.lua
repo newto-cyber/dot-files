@@ -13,9 +13,9 @@ config.enable_wayland = true
 config.color_scheme= 'OneDark (Gogh)'
 
 -- Wayland blur support (works on compositors supporting org_kde_kwin_blur)
-config.window_background_opacity = 0.88
+config.window_background_opacity = 0.55
 config.wayland_window_background_blur = true
-config.text_background_opacity=0.3
+config.text_background_opacity=0.6
 
 config.colors = {
     background = '#000000' ,
