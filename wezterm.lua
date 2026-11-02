@@ -9,9 +9,17 @@ local act = wezterm.action
 -- Ensure native Wayland backend is used (avoids blurry XWayland scaling)
 config.enable_wayland = true
 
+-- Default ColorScheme
+config.color_scheme= 'OneDark (Gogh)'
+
 -- Wayland blur support (works on compositors supporting org_kde_kwin_blur)
-config.window_background_opacity = 0.95
+config.window_background_opacity = 0.88
 config.wayland_window_background_blur = true
+config.text_background_opacity=0.3
+
+config.colors = {
+    background = '#000000' ,
+}
 
 -- Borderless / clean look
 config.window_decorations = "RESIZE"
